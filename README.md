@@ -8,7 +8,7 @@ Accurate characterization of the lithology is essential to optimize all drilling
 The objective of this work is to use machine learing in automating the classification of lithology. This project integrates Random Forests for formation lithology identification and comprehensively evaluated the performance of the proposed classifier based on the metrics of  the area under the receiver operating characteristic curve (AUC). The developed model can help petroleum engineers to determine reservoir lithology and optimize drilling parameters. i.e This will serve as a decision support system for the experts in the field.
 
 ## Dataset
-The data of this study are derived from Daniudui gas field and the Hangjinqi gas field, which includes 2153 samples with known lithology facies class with each sample having seven measured properties (well log curves),  corresponding depth. 
+The data used in this project is from the open database for the Volve oil field in Stavanger at the southern end of the Norwegian sector in the North Sea. It includes drilling sample data with known lithology facies class (Mudstone, Claystone, Dolomite, Marl and Sandstone). 
 
 ## Results
 - The model's ability to estimate the certainty of the lithology belonging to a specific class of lithologies is measured using two metrics.
